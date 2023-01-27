@@ -1,0 +1,1 @@
+function rand_values = flip_coin(n)    rand_values = rand(1,n);    for ii = 1:length(rand_values)        if rand_values(ii) <= 0.5            rand_values(ii) = 0;        else            rand_values(ii) = 1;        end    endend
